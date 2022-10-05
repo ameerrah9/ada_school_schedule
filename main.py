@@ -1,33 +1,33 @@
-
+from school_schedule.student import Student
 
 #first instance
 quinn = Student(
-                "Quinn", 
-                "junior", 
+                "Quinn",
+                "junior",
                 [
-                    "Pre-Calc", 
-                    "English III", 
-                    "World History", 
-                    "Gym", 
-                    "Chemistry", 
+                    "Pre-Calc",
+                    "English III",
+                    "World History",
+                    "Gym",
+                    "Chemistry",
                     "Music Composition"
                 ]
             )
 
-quinn.add_class("Painting")
-quinn.get_num_classes()
-quinn.summary()
+print(quinn.add_class("Painting"))
+print(quinn.get_num_classes())
+print(quinn.summary())
 
 # second instance
 claire = Student(
-                "Claire", 
-                "freshmen", 
+                "Claire",
+                "freshmen",
                 [
-                    "Algebra", 
-                    "Writing", 
-                    "Contemporary Issues", 
-                    "Gym", 
-                    "Earth Science", 
+                    "Algebra",
+                    "Writing",
+                    "Contemporary Issues",
+                    "Gym",
+                    "Earth Science",
                     "Painting"
                 ]
             )
